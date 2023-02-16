@@ -1,0 +1,23 @@
+Feb14-06:22:57
+----------------------------------------------------------------------------------------------------
+[Texas]   seed=0
+----------------------------------------------------------------------------------------------------
+lr=0.01 diffusion_steps=80 temperature=0.3 schedule=True weight_decay=0.01  skip=False load start=1000
+nhid=8 layers=2 linears=1
+----------------------------------------------------------------------------------------------------
+051 | 0.63s | train acc: 7.586e-01 | val acc: 6.102e-01 | test acc: 5.135e-01
+101 | 0.72s | train acc: 8.621e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+151 | 0.59s | train acc: 8.276e-01 | val acc: 5.593e-01 | test acc: 5.946e-01
+201 | 0.59s | train acc: 8.736e-01 | val acc: 5.593e-01 | test acc: 5.946e-01
+251 | 0.66s | train acc: 7.586e-01 | val acc: 6.271e-01 | test acc: 5.405e-01
+301 | 0.61s | train acc: 8.736e-01 | val acc: 5.763e-01 | test acc: 5.405e-01
+351 | 0.62s | train acc: 8.506e-01 | val acc: 6.102e-01 | test acc: 5.946e-01
+401 | 0.56s | train acc: 8.621e-01 | val acc: 5.424e-01 | test acc: 5.946e-01
+451 | 0.59s | train acc: 8.736e-01 | val acc: 5.932e-01 | test acc: 5.405e-01
+501 | 0.61s | train acc: 8.506e-01 | val acc: 5.593e-01 | test acc: 5.946e-01
+551 | 0.54s | train acc: 8.046e-01 | val acc: 5.932e-01 | test acc: 5.946e-01
+601 | 0.57s | train acc: 7.471e-01 | val acc: 6.271e-01 | test acc: 6.216e-01
+651 | 0.55s | train acc: 8.506e-01 | val acc: 5.593e-01 | test acc: 5.405e-01
+701 | 0.69s | train acc: 8.391e-01 | val acc: 5.932e-01 | test acc: 5.946e-01
+751 | 0.66s | train acc: 8.161e-01 | val acc: 6.102e-01 | test acc: 5.946e-01
+801 | 0.56s | train acc: 8.391e-01 | val acc: 5.932e-01 | test acc: 5.946e-01

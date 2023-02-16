@@ -1,0 +1,30 @@
+# data: citeseer, pubmed, cora, dblp, ppi-1, ppi-2, ppi-10, ppi-20
+data:
+  data: cora
+  dir: './data'
+  nfeat: 1433
+  nlabel: 7
+
+diffusion:
+  method: Gaussian
+  step: 40
+  s: 0.008
+
+model:
+  model: GATConv
+  nhid: 256
+  cat_mode: False
+  skip: True
+  num_layers: 4
+  num_linears: 2
+
+train:
+  num_epochs: 40000
+  print_interval: 100
+  time_batch: 16
+  lr: 0.0001
+  lr_schedule: True
+  weight_decay: 0.001
+  lr_decay: 0.9999999
+  eps: 1.0e-5
+  unweighted_MSE: False

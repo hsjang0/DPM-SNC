@@ -1,0 +1,17 @@
+Feb13-05:47:32
+----------------------------------------------------------------------------------------------------
+[cora]   seed=42
+----------------------------------------------------------------------------------------------------
+lr=0.0001 unweighted_MSE=False diffusion_steps=80 schedule=True weight_decay=0.001 cat=False skip=True
+nhid=256 layers=4 linears=2
+----------------------------------------------------------------------------------------------------
+001 | 3.43s | train acc: 1.645e-01 | val acc: 1.148e-01 | val graph: 3.000e-02 | test node: 9.083e-02 | test graph: 4.700e-02
+101 | 1.35s | train acc: 1.555e-01 | val acc: 2.917e-01 | val graph: 1.880e-01 | test node: 2.854e-01 | test graph: 1.830e-01
+201 | 1.35s | train acc: 1.722e-01 | val acc: 1.454e-01 | val graph: 1.000e-02 | test node: 1.392e-01 | test graph: 4.000e-03
+301 | 1.36s | train acc: 1.542e-01 | val acc: 1.691e-01 | val graph: 2.200e-02 | test node: 1.600e-01 | test graph: 3.200e-02
+401 | 1.37s | train acc: 2.057e-01 | val acc: 1.834e-01 | val graph: 3.400e-02 | test node: 1.640e-01 | test graph: 2.600e-02
+501 | 1.36s | train acc: 1.787e-01 | val acc: 1.450e-01 | val graph: 3.400e-02 | test node: 1.500e-01 | test graph: 4.400e-02
+601 | 1.36s | train acc: 1.864e-01 | val acc: 1.765e-01 | val graph: 4.800e-02 | test node: 1.700e-01 | test graph: 4.400e-02
+701 | 1.36s | train acc: 2.134e-01 | val acc: 1.953e-01 | val graph: 4.400e-02 | test node: 1.861e-01 | test graph: 3.900e-02
+801 | 1.36s | train acc: 1.851e-01 | val acc: 1.801e-01 | val graph: 5.400e-02 | test node: 1.761e-01 | test graph: 4.700e-02
+901 | 1.35s | train acc: 2.532e-01 | val acc: 2.136e-01 | val graph: 4.600e-02 | test node: 2.003e-01 | test graph: 3.500e-02

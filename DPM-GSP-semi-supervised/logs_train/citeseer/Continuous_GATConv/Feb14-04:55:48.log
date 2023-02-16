@@ -1,0 +1,14 @@
+Feb14-04:55:48
+----------------------------------------------------------------------------------------------------
+[citeseer]   seed=0
+----------------------------------------------------------------------------------------------------
+lr=0.01 diffusion_steps=80 temperature=0.3 schedule=True weight_decay=0.01  skip=False load start=2000
+nhid=8 layers=2 linears=1
+----------------------------------------------------------------------------------------------------
+101 | 0.62s | train acc: 9.583e-01 | val acc: 6.180e-01 | test acc: 6.140e-01
+201 | 0.67s | train acc: 9.583e-01 | val acc: 5.880e-01 | test acc: 5.700e-01
+301 | 0.56s | train acc: 9.750e-01 | val acc: 6.380e-01 | test acc: 6.060e-01
+401 | 0.61s | train acc: 9.833e-01 | val acc: 5.040e-01 | test acc: 5.020e-01
+501 | 0.66s | train acc: 9.667e-01 | val acc: 6.280e-01 | test acc: 6.310e-01
+601 | 0.68s | train acc: 9.750e-01 | val acc: 6.320e-01 | test acc: 5.990e-01
+701 | 0.60s | train acc: 9.583e-01 | val acc: 4.780e-01 | test acc: 4.180e-01

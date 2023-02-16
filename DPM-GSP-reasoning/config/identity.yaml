@@ -1,0 +1,20 @@
+data:
+  data: shortest
+  dir: './data'
+
+diffusion:
+  method: Continuous
+  step: 100
+  s: 0.01
+  temp: 0.3
+
+train:
+  print_interval: 1000
+  t_batch: 8
+  lr: 0.0004
+  lr_schedule: True
+  ema: 0.9999
+  weight_decay: 0.000001
+  grad_norm: 1
+  lr_decay: 0.99999999
+  eps: 1.0e-5

@@ -1,0 +1,71 @@
+Feb08-03:47:36
+----------------------------------------------------------------------------------------------------
+[citeseer]   seed=5
+----------------------------------------------------------------------------------------------------
+lr=0.001 schedule=True ema=0.999 weight_decay=0.003cat=False skip=Falseepochs=30000 reduce=False eps=1e-05
+nhid=16 layers=2 linears=2
+----------------------------------------------------------------------------------------------------
+001 | 1.36s | train acc: 2.087e-01 | val acc: 2.076e-01 | val graph: 1.280e-01 | test node: 1.839e-01 | test graph: 9.900e-02
+201 | 0.68s | train acc: 1.384e-01 | val acc: 1.319e-01 | val graph: 3.000e-02 | test node: 1.433e-01 | test graph: 3.000e-02
+401 | 0.66s | train acc: 2.107e-01 | val acc: 1.679e-01 | val graph: 5.600e-02 | test node: 1.591e-01 | test graph: 5.400e-02
+601 | 0.68s | train acc: 2.314e-01 | val acc: 2.537e-01 | val graph: 8.400e-02 | test node: 2.201e-01 | test graph: 7.600e-02
+801 | 0.67s | train acc: 2.500e-01 | val acc: 2.431e-01 | val graph: 8.400e-02 | test node: 2.240e-01 | test graph: 7.400e-02
+1001 | 0.65s | train acc: 2.459e-01 | val acc: 2.463e-01 | val graph: 7.800e-02 | test node: 2.277e-01 | test graph: 7.100e-02
+1201 | 0.68s | train acc: 2.397e-01 | val acc: 2.664e-01 | val graph: 1.000e-01 | test node: 2.343e-01 | test graph: 7.600e-02
+1401 | 0.66s | train acc: 2.934e-01 | val acc: 2.791e-01 | val graph: 8.400e-02 | test node: 2.776e-01 | test graph: 7.400e-02
+1601 | 0.67s | train acc: 2.748e-01 | val acc: 2.601e-01 | val graph: 7.400e-02 | test node: 2.528e-01 | test graph: 7.000e-02
+1801 | 0.66s | train acc: 3.182e-01 | val acc: 2.712e-01 | val graph: 8.600e-02 | test node: 2.504e-01 | test graph: 7.200e-02
+2001 | 0.67s | train acc: 3.099e-01 | val acc: 2.892e-01 | val graph: 8.800e-02 | test node: 2.720e-01 | test graph: 7.200e-02
+2201 | 0.66s | train acc: 3.202e-01 | val acc: 2.696e-01 | val graph: 1.020e-01 | test node: 2.491e-01 | test graph: 8.500e-02
+2401 | 0.67s | train acc: 3.099e-01 | val acc: 2.712e-01 | val graph: 1.140e-01 | test node: 2.512e-01 | test graph: 9.200e-02
+2601 | 0.67s | train acc: 3.285e-01 | val acc: 2.797e-01 | val graph: 1.060e-01 | test node: 2.609e-01 | test graph: 8.800e-02
+2801 | 0.66s | train acc: 2.231e-01 | val acc: 2.214e-01 | val graph: 1.300e-01 | test node: 1.989e-01 | test graph: 1.020e-01
+3001 | 0.68s | train acc: 2.045e-01 | val acc: 1.901e-01 | val graph: 7.600e-02 | test node: 1.768e-01 | test graph: 6.100e-02
+3201 | 0.68s | train acc: 2.025e-01 | val acc: 2.066e-01 | val graph: 1.300e-01 | test node: 1.815e-01 | test graph: 1.010e-01
+3401 | 0.66s | train acc: 2.045e-01 | val acc: 2.071e-01 | val graph: 1.320e-01 | test node: 1.818e-01 | test graph: 1.020e-01
+3601 | 0.66s | train acc: 2.045e-01 | val acc: 2.076e-01 | val graph: 1.320e-01 | test node: 1.818e-01 | test graph: 1.030e-01
+3801 | 0.66s | train acc: 2.128e-01 | val acc: 2.156e-01 | val graph: 1.320e-01 | test node: 1.921e-01 | test graph: 1.010e-01
+4001 | 0.68s | train acc: 2.417e-01 | val acc: 2.378e-01 | val graph: 1.240e-01 | test node: 2.137e-01 | test graph: 9.100e-02
+4201 | 0.66s | train acc: 2.231e-01 | val acc: 2.288e-01 | val graph: 1.280e-01 | test node: 2.011e-01 | test graph: 9.900e-02
+4401 | 0.55s | train acc: 2.417e-01 | val acc: 1.917e-01 | val graph: 8.200e-02 | test node: 2.016e-01 | test graph: 9.700e-02
+4601 | 0.56s | train acc: 3.760e-01 | val acc: 3.559e-01 | val graph: 1.240e-01 | test node: 3.132e-01 | test graph: 9.300e-02
+4801 | 0.66s | train acc: 3.781e-01 | val acc: 3.337e-01 | val graph: 1.180e-01 | test node: 3.018e-01 | test graph: 9.600e-02
+5001 | 0.66s | train acc: 3.760e-01 | val acc: 2.940e-01 | val graph: 1.380e-01 | test node: 2.802e-01 | test graph: 1.170e-01
+5201 | 0.67s | train acc: 2.955e-01 | val acc: 2.643e-01 | val graph: 1.360e-01 | test node: 2.483e-01 | test graph: 1.110e-01
+5401 | 0.66s | train acc: 3.058e-01 | val acc: 2.553e-01 | val graph: 1.360e-01 | test node: 2.322e-01 | test graph: 1.100e-01
+5601 | 0.66s | train acc: 2.087e-01 | val acc: 2.082e-01 | val graph: 1.320e-01 | test node: 1.826e-01 | test graph: 1.050e-01
+5801 | 0.67s | train acc: 2.087e-01 | val acc: 2.082e-01 | val graph: 1.320e-01 | test node: 1.826e-01 | test graph: 1.050e-01
+6001 | 0.66s | train acc: 2.107e-01 | val acc: 2.087e-01 | val graph: 1.320e-01 | test node: 1.844e-01 | test graph: 1.050e-01
+6201 | 0.68s | train acc: 4.401e-01 | val acc: 4.460e-01 | val graph: 2.280e-01 | test node: 4.063e-01 | test graph: 1.870e-01
+6401 | 0.67s | train acc: 4.421e-01 | val acc: 4.492e-01 | val graph: 2.300e-01 | test node: 4.095e-01 | test graph: 1.890e-01
+6601 | 0.66s | train acc: 4.669e-01 | val acc: 4.624e-01 | val graph: 2.380e-01 | test node: 4.142e-01 | test graph: 1.920e-01
+6801 | 0.66s | train acc: 4.814e-01 | val acc: 4.682e-01 | val graph: 2.440e-01 | test node: 4.206e-01 | test graph: 1.960e-01
+7001 | 0.65s | train acc: 4.814e-01 | val acc: 4.656e-01 | val graph: 2.440e-01 | test node: 4.208e-01 | test graph: 1.980e-01
+7201 | 0.66s | train acc: 4.421e-01 | val acc: 4.550e-01 | val graph: 2.340e-01 | test node: 4.135e-01 | test graph: 1.910e-01
+7401 | 0.66s | train acc: 5.599e-01 | val acc: 5.021e-01 | val graph: 2.620e-01 | test node: 4.591e-01 | test graph: 2.210e-01
+7601 | 0.66s | train acc: 5.496e-01 | val acc: 4.947e-01 | val graph: 2.620e-01 | test node: 4.485e-01 | test graph: 2.140e-01
+7801 | 0.67s | train acc: 5.764e-01 | val acc: 5.270e-01 | val graph: 2.820e-01 | test node: 4.855e-01 | test graph: 2.420e-01
+8001 | 0.67s | train acc: 5.826e-01 | val acc: 5.450e-01 | val graph: 3.040e-01 | test node: 5.037e-01 | test graph: 2.630e-01
+8201 | 0.69s | train acc: 5.888e-01 | val acc: 5.530e-01 | val graph: 3.260e-01 | test node: 5.087e-01 | test graph: 2.730e-01
+8401 | 0.66s | train acc: 6.529e-01 | val acc: 5.535e-01 | val graph: 3.200e-01 | test node: 5.380e-01 | test graph: 3.110e-01
+8601 | 0.67s | train acc: 6.033e-01 | val acc: 5.514e-01 | val graph: 3.280e-01 | test node: 5.100e-01 | test graph: 2.780e-01
+8801 | 0.66s | train acc: 6.612e-01 | val acc: 5.604e-01 | val graph: 3.320e-01 | test node: 5.240e-01 | test graph: 2.790e-01
+9001 | 0.65s | train acc: 7.252e-01 | val acc: 5.858e-01 | val graph: 3.400e-01 | test node: 5.536e-01 | test graph: 2.950e-01
+9201 | 0.65s | train acc: 8.037e-01 | val acc: 5.964e-01 | val graph: 3.420e-01 | test node: 5.657e-01 | test graph: 3.000e-01
+9401 | 0.56s | train acc: 7.686e-01 | val acc: 6.409e-01 | val graph: 3.920e-01 | test node: 6.132e-01 | test graph: 3.490e-01
+9601 | 0.55s | train acc: 7.789e-01 | val acc: 6.774e-01 | val graph: 4.300e-01 | test node: 6.456e-01 | test graph: 3.760e-01
+9801 | 0.66s | train acc: 7.851e-01 | val acc: 6.806e-01 | val graph: 4.360e-01 | test node: 6.625e-01 | test graph: 4.000e-01
+10001 | 0.66s | train acc: 7.955e-01 | val acc: 6.806e-01 | val graph: 4.400e-01 | test node: 6.628e-01 | test graph: 4.070e-01
+10201 | 0.65s | train acc: 8.099e-01 | val acc: 7.272e-01 | val graph: 4.880e-01 | test node: 7.129e-01 | test graph: 4.500e-01
+10401 | 0.66s | train acc: 8.017e-01 | val acc: 7.436e-01 | val graph: 5.100e-01 | test node: 7.259e-01 | test graph: 4.680e-01
+10601 | 0.65s | train acc: 8.223e-01 | val acc: 7.553e-01 | val graph: 5.240e-01 | test node: 7.533e-01 | test graph: 4.950e-01
+10801 | 0.65s | train acc: 8.202e-01 | val acc: 7.553e-01 | val graph: 5.240e-01 | test node: 7.499e-01 | test graph: 4.930e-01
+11001 | 0.66s | train acc: 7.893e-01 | val acc: 6.202e-01 | val graph: 3.760e-01 | test node: 6.058e-01 | test graph: 3.470e-01
+11201 | 0.66s | train acc: 8.244e-01 | val acc: 7.585e-01 | val graph: 5.320e-01 | test node: 7.594e-01 | test graph: 5.040e-01
+11401 | 0.65s | train acc: 8.409e-01 | val acc: 7.511e-01 | val graph: 5.260e-01 | test node: 7.633e-01 | test graph: 5.080e-01
+11601 | 0.67s | train acc: 8.368e-01 | val acc: 7.579e-01 | val graph: 5.200e-01 | test node: 7.636e-01 | test graph: 5.060e-01
+11801 | 0.66s | train acc: 8.678e-01 | val acc: 7.632e-01 | val graph: 5.340e-01 | test node: 7.586e-01 | test graph: 5.050e-01
+12001 | 0.65s | train acc: 8.822e-01 | val acc: 7.675e-01 | val graph: 5.340e-01 | test node: 7.707e-01 | test graph: 5.180e-01
+12201 | 0.65s | train acc: 8.802e-01 | val acc: 7.632e-01 | val graph: 5.300e-01 | test node: 7.657e-01 | test graph: 5.140e-01
+12401 | 0.65s | train acc: 9.008e-01 | val acc: 7.685e-01 | val graph: 5.320e-01 | test node: 7.675e-01 | test graph: 5.130e-01
+12601 | 0.66s | train acc: 9.029e-01 | val acc: 7.638e-01 | val graph: 5.340e-01 | test node: 7.734e-01 | test graph: 5.120e-01

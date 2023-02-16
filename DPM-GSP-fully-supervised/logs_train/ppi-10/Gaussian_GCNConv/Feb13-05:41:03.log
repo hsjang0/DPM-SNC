@@ -1,0 +1,25 @@
+Feb13-05:41:03
+----------------------------------------------------------------------------------------------------
+[ppi-10]   seed=42
+----------------------------------------------------------------------------------------------------
+lr=0.0002 unweighted_MSE=True diffusion_steps=80 schedule=True weight_decay=0 cat=False skip=True
+nhid=1024 layers=2 linears=3
+----------------------------------------------------------------------------------------------------
+001 | 5.67s | val acc: 4.795e-01 | test acc: 4.806e-01 | val f1: 3.981e-01 | test f1: 4.032e-01 
+101 | 5.02s | val acc: 3.646e-01 | test acc: 3.699e-01 | val f1: 4.624e-01 | test f1: 4.695e-01 
+201 | 4.93s | val acc: 7.054e-01 | test acc: 6.998e-01 | val f1: 3.459e-03 | test f1: 3.636e-03 
+301 | 4.96s | val acc: 7.094e-01 | test acc: 7.038e-01 | val f1: 4.342e-02 | test f1: 4.335e-02 
+401 | 4.96s | val acc: 7.054e-01 | test acc: 6.996e-01 | val f1: 2.851e-04 | test f1: 4.187e-04 
+501 | 5.02s | val acc: 5.452e-01 | test acc: 5.442e-01 | val f1: 4.856e-01 | test f1: 4.911e-01 
+601 | 5.08s | val acc: 4.807e-01 | test acc: 4.834e-01 | val f1: 4.844e-01 | test f1: 4.916e-01 
+701 | 5.08s | val acc: 5.780e-01 | test acc: 5.747e-01 | val f1: 4.244e-01 | test f1: 4.307e-01 
+801 | 5.01s | val acc: 5.194e-01 | test acc: 5.138e-01 | val f1: 4.632e-01 | test f1: 4.692e-01 
+901 | 4.98s | val acc: 7.053e-01 | test acc: 6.998e-01 | val f1: 5.882e-03 | test f1: 7.310e-03 
+1001 | 5.09s | val acc: 6.712e-01 | test acc: 6.668e-01 | val f1: 3.779e-01 | test f1: 3.860e-01 
+1101 | 4.97s | val acc: 7.046e-01 | test acc: 6.991e-01 | val f1: 1.246e-02 | test f1: 1.336e-02 
+1201 | 5.10s | val acc: 7.120e-01 | test acc: 7.090e-01 | val f1: 1.709e-01 | test f1: 2.039e-01 
+1301 | 5.09s | val acc: 5.029e-01 | test acc: 5.019e-01 | val f1: 4.130e-01 | test f1: 4.177e-01 
+1401 | 5.03s | val acc: 5.403e-01 | test acc: 5.368e-01 | val f1: 4.730e-01 | test f1: 4.776e-01 
+1501 | 5.03s | val acc: 5.789e-01 | test acc: 5.757e-01 | val f1: 4.617e-01 | test f1: 4.667e-01 
+1601 | 5.17s | val acc: 4.329e-01 | test acc: 4.366e-01 | val f1: 4.620e-01 | test f1: 4.685e-01 
+1701 | 4.99s | val acc: 3.920e-01 | test acc: 3.936e-01 | val f1: 4.223e-01 | test f1: 4.274e-01 

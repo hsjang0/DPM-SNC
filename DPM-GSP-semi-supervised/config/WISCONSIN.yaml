@@ -1,0 +1,40 @@
+# data : pubmed, citeseer, cora, Cornell, Texas, Wisconsin, Photo, Computers 
+data:
+  data: Wisconsin
+  dir: './data'
+  nfeat: 1703
+  nlabel: 5
+  fold: 0 # Here, fold should be selected from 0 to 9
+
+# temp: temperatures in constructing a buffer
+diffusion:
+  method: Continuous
+  step: 80
+  s: 0.008
+  coef: 1
+  temp: 0.1
+
+model:
+  model: GATConv
+  denoise_model: v1
+  nhid: 8
+  num_layers: 1
+  num_linears: 1
+  skip: False
+
+# load_start: number of iterations in initial maximization step
+# load_interval: number of iterations in maximization step
+train:
+  load_start: 1000
+  num_epochs: 5000
+  pre_train_epochs: 1000
+  lr_simple: 0.001
+  print_interval: 50
+  load_interval: 50
+  time_batch: 8
+  lr_schedule: True
+  lr: 0.01
+  weight_decay: 0.001
+  grad_norm: 1
+  lr_decay: 0.99999
+  eps: 1.0e-5

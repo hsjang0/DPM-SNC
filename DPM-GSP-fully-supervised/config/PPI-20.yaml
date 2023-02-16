@@ -1,0 +1,30 @@
+data:
+  data: ppi-20
+  dir: './data'
+  nfeat: 50
+  nlabel: 121
+
+diffusion:
+  method: Gaussian
+  step: 80
+  s: 0.008
+
+model:
+  model: GCNConv
+  nhid: 1024
+  cat_mode: False
+  skip: True
+  num_layers: 2
+  num_linears: 3
+
+train:
+  num_epochs: 120000
+  print_interval: 100
+  batch: 5 # Data-level batch is only used in PPI-10 or PPI-20
+  lr: 0.0002
+  lr_schedule: True
+  weight_decay: 0
+  lr_decay: 0.9999999
+  eps: 1.0e-5
+  unweighted_MSE: True
+  grad_norm: 1

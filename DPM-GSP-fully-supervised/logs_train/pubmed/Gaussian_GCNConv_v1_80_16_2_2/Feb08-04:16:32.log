@@ -1,0 +1,15 @@
+Feb08-04:16:32
+----------------------------------------------------------------------------------------------------
+[pubmed]   seed=122
+----------------------------------------------------------------------------------------------------
+lr=0.001 schedule=True ema=0.999 weight_decay=0.003cat=False skip=Falseepochs=30000 reduce=False eps=1e-05
+nhid=16 layers=2 linears=2
+----------------------------------------------------------------------------------------------------
+001 | 1.37s | train acc: 3.221e-01 | val acc: 1.835e-01 | val graph: 1.200e-01 | test node: 1.639e-01 | test graph: 8.900e-02
+201 | 0.65s | train acc: 6.443e-01 | val acc: 6.441e-01 | val graph: 5.300e-01 | test node: 6.291e-01 | test graph: 4.910e-01
+401 | 0.65s | train acc: 8.599e-01 | val acc: 8.198e-01 | val graph: 5.740e-01 | test node: 7.931e-01 | test graph: 5.340e-01
+601 | 0.66s | train acc: 8.880e-01 | val acc: 8.176e-01 | val graph: 5.700e-01 | test node: 7.899e-01 | test graph: 5.320e-01
+801 | 0.66s | train acc: 9.244e-01 | val acc: 8.113e-01 | val graph: 5.600e-01 | test node: 7.891e-01 | test graph: 5.260e-01
+1001 | 0.65s | train acc: 9.356e-01 | val acc: 8.143e-01 | val graph: 5.620e-01 | test node: 7.844e-01 | test graph: 5.230e-01
+1201 | 0.65s | train acc: 9.440e-01 | val acc: 8.176e-01 | val graph: 5.720e-01 | test node: 7.807e-01 | test graph: 5.230e-01
+1401 | 0.65s | train acc: 9.496e-01 | val acc: 8.013e-01 | val graph: 5.420e-01 | test node: 7.770e-01 | test graph: 5.090e-01

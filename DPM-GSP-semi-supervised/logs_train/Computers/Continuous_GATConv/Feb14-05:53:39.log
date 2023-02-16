@@ -1,0 +1,46 @@
+Feb14-05:53:39
+----------------------------------------------------------------------------------------------------
+[Computers]   seed=42
+----------------------------------------------------------------------------------------------------
+lr=0.0005 diffusion_steps=80 temperature=0.3 schedule=True weight_decay=0.0001  skip=False load start=2000
+nhid=16 layers=2 linears=1
+----------------------------------------------------------------------------------------------------
+101 | 2.02s | train acc: 2.000e-01 | val acc: 2.000e-01 | test acc: 2.334e-01
+201 | 2.02s | train acc: 1.900e-01 | val acc: 1.800e-01 | test acc: 1.524e-01
+301 | 2.07s | train acc: 1.800e-01 | val acc: 1.333e-01 | test acc: 1.237e-01
+401 | 2.02s | train acc: 1.900e-01 | val acc: 1.600e-01 | test acc: 1.139e-01
+501 | 2.03s | train acc: 4.300e-01 | val acc: 3.100e-01 | test acc: 2.185e-01
+601 | 2.08s | train acc: 5.200e-01 | val acc: 3.367e-01 | test acc: 2.515e-01
+701 | 2.03s | train acc: 5.450e-01 | val acc: 3.733e-01 | test acc: 2.868e-01
+801 | 2.02s | train acc: 5.400e-01 | val acc: 4.133e-01 | test acc: 2.957e-01
+901 | 2.03s | train acc: 5.100e-01 | val acc: 3.400e-01 | test acc: 3.089e-01
+1001 | 2.03s | train acc: 4.750e-01 | val acc: 3.233e-01 | test acc: 2.924e-01
+1101 | 2.03s | train acc: 4.600e-01 | val acc: 3.167e-01 | test acc: 2.907e-01
+1201 | 2.03s | train acc: 4.650e-01 | val acc: 3.167e-01 | test acc: 2.570e-01
+1301 | 2.02s | train acc: 4.650e-01 | val acc: 2.900e-01 | test acc: 2.493e-01
+1401 | 2.03s | train acc: 4.600e-01 | val acc: 3.000e-01 | test acc: 2.506e-01
+1501 | 2.02s | train acc: 5.050e-01 | val acc: 2.933e-01 | test acc: 2.376e-01
+1601 | 2.04s | train acc: 5.650e-01 | val acc: 3.733e-01 | test acc: 2.877e-01
+1701 | 2.04s | train acc: 7.200e-01 | val acc: 5.433e-01 | test acc: 4.608e-01
+1801 | 2.02s | train acc: 8.400e-01 | val acc: 6.900e-01 | test acc: 7.032e-01
+1901 | 2.07s | train acc: 9.400e-01 | val acc: 8.000e-01 | test acc: 8.044e-01
+2001 | 2.04s | train acc: 9.650e-01 | val acc: 8.400e-01 | test acc: 8.353e-01
+2101 | 8.24s | train acc: 9.900e-01 | val acc: 8.667e-01 | test acc: 8.547e-01
+2201 | 8.24s | train acc: 9.950e-01 | val acc: 8.767e-01 | test acc: 8.531e-01
+2301 | 8.26s | train acc: 9.950e-01 | val acc: 8.800e-01 | test acc: 8.596e-01
+2401 | 8.28s | train acc: 9.950e-01 | val acc: 8.900e-01 | test acc: 8.613e-01
+2501 | 8.25s | train acc: 9.950e-01 | val acc: 8.833e-01 | test acc: 8.647e-01
+2601 | 8.24s | train acc: 9.950e-01 | val acc: 8.800e-01 | test acc: 8.665e-01
+2701 | 8.30s | train acc: 9.950e-01 | val acc: 8.833e-01 | test acc: 8.671e-01
+2801 | 8.24s | train acc: 9.950e-01 | val acc: 8.933e-01 | test acc: 8.658e-01
+2901 | 8.24s | train acc: 9.950e-01 | val acc: 8.867e-01 | test acc: 8.652e-01
+3001 | 8.25s | train acc: 9.950e-01 | val acc: 8.833e-01 | test acc: 8.684e-01
+3101 | 8.29s | train acc: 9.950e-01 | val acc: 8.800e-01 | test acc: 8.685e-01
+3201 | 8.26s | train acc: 9.950e-01 | val acc: 8.867e-01 | test acc: 8.698e-01
+3301 | 8.24s | train acc: 9.950e-01 | val acc: 8.833e-01 | test acc: 8.700e-01
+3401 | 8.24s | train acc: 9.950e-01 | val acc: 8.800e-01 | test acc: 8.713e-01
+3501 | 8.26s | train acc: 9.900e-01 | val acc: 8.833e-01 | test acc: 8.701e-01
+3601 | 8.24s | train acc: 9.950e-01 | val acc: 8.833e-01 | test acc: 8.718e-01
+3701 | 8.25s | train acc: 9.950e-01 | val acc: 8.800e-01 | test acc: 8.725e-01
+3801 | 8.25s | train acc: 9.950e-01 | val acc: 8.833e-01 | test acc: 8.716e-01
+3901 | 8.25s | train acc: 9.950e-01 | val acc: 8.867e-01 | test acc: 8.717e-01

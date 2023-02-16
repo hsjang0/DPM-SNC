@@ -1,0 +1,29 @@
+data:
+  data: citeseer
+  dir: './data'
+  nfeat: 3703
+  nlabel: 6
+
+diffusion:
+  method: Gaussian
+  step: 80
+  s: 0.008
+
+model:
+  model: SAGEConv
+  nhid: 64
+  cat_mode: False
+  skip: False
+  num_layers: 4
+  num_linears: 2
+
+train:
+  num_epochs: 20000
+  print_interval: 100
+  time_batch: 16
+  lr: 0.0005
+  lr_schedule: True
+  weight_decay: 0.001
+  lr_decay: 0.9999999
+  eps: 1.0e-5
+  unweighted_MSE: False
