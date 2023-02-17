@@ -3,7 +3,6 @@ import time
 from tqdm import tqdm, trange
 import numpy as np
 import torch
-import neptune.new as neptune
 from utils.loader import load_seed, load_device, load_data, load_model_params, load_model_optimizer, \
                          load_batch, load_loss_fn
 from utils.logger import Logger, set_log, start_log, train_log

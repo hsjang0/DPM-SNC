@@ -1,0 +1,12 @@
+Feb17-04:36:56
+----------------------------------------------------------------------------------------------------
+[cora]   seed=42
+----------------------------------------------------------------------------------------------------
+lr=0.003 unweighted_MSE=False diffusion_steps=80 schedule=True weight_decay=0.003 cat=False skip=False
+nhid=16 layers=2 linears=2
+----------------------------------------------------------------------------------------------------
+001 | 1.02s | train acc: 1.645e-01 | val acc: 1.148e-01 | val graph: 3.000e-02 | test node: 9.083e-02 | test graph: 4.700e-02
+101 | 0.41s | train acc: 1.491e-01 | val acc: 1.556e-01 | val graph: 1.100e-01 | test node: 1.526e-01 | test graph: 1.070e-01
+201 | 0.40s | train acc: 1.272e-01 | val acc: 1.511e-01 | val graph: 1.080e-01 | test node: 1.598e-01 | test graph: 1.040e-01
+301 | 0.40s | train acc: 1.722e-01 | val acc: 2.900e-01 | val graph: 2.080e-01 | test node: 2.922e-01 | test graph: 2.080e-01
+401 | 0.40s | train acc: 1.542e-01 | val acc: 2.876e-01 | val graph: 2.180e-01 | test node: 2.895e-01 | test graph: 2.160e-01

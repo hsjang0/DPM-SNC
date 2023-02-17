@@ -3,7 +3,6 @@ import numpy as np
 import torch.nn.functional as F
 import math
 from torch.autograd import Variable
-import neptune.new as neptune
 
 
 def sum_except_batch(x, num_dims=1):

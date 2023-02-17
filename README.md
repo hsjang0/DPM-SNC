@@ -17,21 +17,27 @@ We provide the PyTorch implementation for DPM-GSP framework here. The repository
 ```
 
 ## Setting up the environment
-You can set up the environment by following commands.
+You can set up the environment by following commands. 
 
-### DPM-GSP-fully-supervised  
 ```sh
-conda create --name <env> --file requirements_supervised.txt
+conda create -n DPM-GSP python=3.10
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+pip install tqdm
+pip install pyyaml
+pip install easydict
+pip install torch-sparse
+pip install torch-scatter==2.0.9
+```
+You also need to install torch-geometric package. Each experiment requires a different version.
+
+### DPM-GSP for fully-supervised and reasoning  
+```sh
+pip install torch-geometric==1.7.1
 ```
 
 ### DPM-GSP-semi-supervised  
 ```sh
-conda create --name <env> --file requirements_semi-supervised.txt
-```
-
-### DPM-GSP-reasoning
-```sh
-conda create --name <env> --file requirements_supervised.txt
+pip install torch-geometric==2.1.0
 ```
 
 ## Running

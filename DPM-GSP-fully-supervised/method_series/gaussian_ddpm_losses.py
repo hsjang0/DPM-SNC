@@ -3,7 +3,6 @@ import numpy as np
 import torch.nn.functional as F
 import math
 from torch.autograd import Variable
-import neptune.new as neptune
 import time
 from sklearn.metrics import f1_score
 from torch_scatter import scatter_mean
