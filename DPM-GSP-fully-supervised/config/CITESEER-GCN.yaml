@@ -1,4 +1,3 @@
-# data: citeseer, pubmed, cora, ppi-0-121, dblp
 data:
   data: citeseer
   dir: './data'
