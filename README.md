@@ -5,8 +5,8 @@ This is an official implementation of our paper Diffusion Probabilistic Models f
 We provide the PyTorch implementation for DPM-GSP framework here. The repository is organised as follows:
 
 ```python
-|-- DPM-GSP-{fully-supervsed, semi-supervsed, reasoning} # DPM-GSP for supervised node classification, semi-supervised node classification, and reasoning tasks
-    |-- config/ # configurations
+|-- DPM-GSP-{fully-supervised, semi-supervised, reasoning} # DPM-GSP for supervised node classification, semi-supervised node classification, and reasoning tasks
+    |-- config/ # configurations (Hyperparameters used in the experiments are specified in the Appendix C of our paper.)
     |-- parsers/ # the argument parser
     |-- models/ # model definition
     |-- method_series/ # training method
