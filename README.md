@@ -1,5 +1,5 @@
 # Diffusion Probabilistic Models for Graph Structured predictions
-This is an official implementation of our paper ["**Diffusion Probabilistic Models for Graph Structured predictions."](https://arxiv.org/abs/2302.10506)
+This is an official implementation of our paper ["**Diffusion Probabilistic Models for Graph Structured predictions.**"](https://arxiv.org/abs/2302.10506)
 
 ## Repository Overview
 We provide the PyTorch implementation for DPM-GSP framework here. The repository is organised as follows:
