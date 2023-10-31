@@ -1,0 +1,37 @@
+# data : pubmed, citeseer, cora, Cornell, Photo, Computers 
+data:
+  data: Synthetic-scattered   
+  dir: './data'
+  nfeat: 1
+  nlabel: 2
+
+# temp: temperatures in constructing a buffer
+diffusion:
+  method: Continuous
+  step: 100
+  s: 0.008
+  coef: 1
+  temp: 1
+
+model:
+  model: GCNConv
+  denoise_model: v1
+  nhid: 16
+  num_layers: 1
+  num_linears: 2
+
+# load_start: number of iterations in initial maximization step
+# load_interval: number of iterations in maximization step
+train:
+  load_start: 300
+  num_epochs: 30000
+  pre_train_epochs: 500
+  lr_simple: 0.005
+  print_interval: 100
+  load_interval: 30
+  time_batch: 8
+  lr: 0.005
+  weight_decay: 0.0
+  lr_schedule: False
+  grad_norm: 1
+  lr_decay: 0.99999

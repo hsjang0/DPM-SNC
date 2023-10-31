@@ -1,0 +1,28 @@
+# data : pubmed, citeseer, cora, Cornell, Texas, Wisconsin, Photo, Computers 
+data:
+  data: cora
+  dir: './data'
+  nfeat: 1433
+  nlabel: 7
+
+# temp: temperatures in optimizing variational distribution
+collective:
+  iteration: 10
+  batch: 100
+  rand_number: 10
+  temp: 0.3
+
+model:
+  model: GCNConv
+  denoise_model: v1
+  nhid: 64
+  num_layers: 2
+  num_linears: 1
+
+train:
+  num_epochs: 100 # num_epochs for each batch
+  lr: 0.01
+  weight_decay: 0.01
+  lr_schedule: False
+  lr_decay: 0.999999
+  grad_norm: 1

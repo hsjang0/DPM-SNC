@@ -1,0 +1,37 @@
+# data : pubmed, citeseer, cora, Cornell, Texas, Wisconsin, Photo, Computers 
+data:
+  data: cora
+  dir: './data'
+  nfeat: 1433
+  nlabel: 7
+
+# temp: temperatures in constructing a buffer
+diffusion:
+  method: Continuous
+  step: 80
+  s: 0.008
+  coef: 1
+  temp: 0.1
+
+model:
+  model: GCNConv
+  denoise_model: v1
+  nhid: 64
+  num_layers: 2
+  num_linears: 1
+
+# load_start: number of iterations in initial maximization step
+# load_interval: number of iterations in maximization step
+train:
+  load_start: 2000
+  num_epochs: 20000
+  pre_train_epochs: 500
+  lr_simple: 0.005
+  print_interval: 100
+  load_interval: 100
+  time_batch: 16
+  lr: 0.01
+  weight_decay: 0.01
+  lr_schedule: False
+  grad_norm: 1
+  lr_decay: 0.99999

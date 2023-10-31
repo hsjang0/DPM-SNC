@@ -1,0 +1,17 @@
+data:
+  data: connected_comp
+  dir: './data'
+
+diffusion:
+  step: 80
+  s: 0.01
+  temp: 1.0
+
+train:
+  print_interval: 1000
+  t_batch: 8
+  lr: 0.0003
+  lr_schedule: True
+  weight_decay: 0.0
+  grad_norm: 1
+  lr_decay: 0.99999999

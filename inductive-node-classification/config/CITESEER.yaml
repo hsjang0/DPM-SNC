@@ -1,0 +1,27 @@
+# data : pubmed, citeseer, cora, PPI-20 
+data:
+  data: citeseer
+  dir: './data'
+  nfeat: 3703
+  nlabel: 6
+
+diffusion:
+  step: 80
+  s: 0.008
+
+model:
+  model: GCNConv
+  nhid: 64
+  skip: False
+  num_layers: 2
+  num_linears: 1
+
+train:
+  num_epochs: 10000
+  print_interval: 100
+  time_batch: 16
+  lr: 0.01
+  lr_schedule: False
+  weight_decay: 0.01
+  grad_norm: 1.0
+  lr_decay: 0.9999999

@@ -1,0 +1,26 @@
+data:
+  data: ppi-20
+  dir: './data'
+  nfeat: 50
+  nlabel: 121
+
+diffusion:
+  step: 80
+  s: 0.008
+
+model:
+  model: GCNConv
+  nhid: 1024
+  skip: True
+  num_layers: 4
+  num_linears: 1
+
+train:
+  num_epochs: 100000
+  print_interval: 100
+  batch: 2
+  lr: 0.0003
+  lr_schedule: False
+  weight_decay: 0.0
+  grad_norm: 1.0
+  lr_decay: 0.9999999

@@ -1,12 +1,11 @@
-# Diffusion Probabilistic Models for Graph Structured predictions
-This is an official implementation of our paper ["**Diffusion Probabilistic Models for Graph Structured predictions.**"](https://arxiv.org/abs/2302.10506)
+# Diffusion Probabilistic Models for Structured Node classifications
 
 ## Repository Overview
-We provide the PyTorch implementation for DPM-GSP framework here. The repository is organised as follows:
+We provide the PyTorch implementation for DPM-SNC framework here. The repository is organised as follows:
 
 ```python
-|-- DPM-GSP-{fully-supervised, semi-supervised, reasoning} # DPM-GSP for supervised node classification, semi-supervised node classification, and reasoning tasks
-    |-- config/ # configurations (Hyperparameters used in the experiments are specified in the Appendix C of our paper.)
+|-- {transductive-node-classification, transductive-node-classification-hetero, inductive-node-classification, graph-algorithm-reasoning} # DPM-GSP for supervised node classification, semi-supervised node classification, and reasoning tasks
+    |-- config/ # configurations
     |-- parsers/ # the argument parser
     |-- models/ # model definition
     |-- method_series/ # training method
@@ -20,7 +19,7 @@ We provide the PyTorch implementation for DPM-GSP framework here. The repository
 You can set up the environment by following commands. 
 
 ```sh
-conda create -n DPM-GSP python=3.10
+conda create -n DPM-SNC python=3.10
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 pip install tqdm
 pip install pyyaml
@@ -30,12 +29,12 @@ pip install torch-scatter==2.0.9
 ```
 You also need to install torch-geometric package. Each experiment requires a different version.
 
-### DPM-GSP for fully-supervised and reasoning  
+### DPM-SNC for fully-supervised and reasoning  
 ```sh
 pip install torch-geometric==1.7.1
 ```
 
-### DPM-GSP-semi-supervised  
+### DPM-SNC-semi-supervised  
 ```sh
 pip install torch-geometric==2.1.0
 ```
