@@ -1,4 +1,6 @@
-# Diffusion Probabilistic Models for Structured Node classifications
+# Diffusion Probabilistic Models for Structured Node classification
+
+This is an official implementation of our paper **Diffusion Probabilistic Models for Structured Node classification** accepted at **NeurIPS 2023**. 
 
 ## Repository Overview
 We provide the PyTorch implementation for DPM-SNC framework here. The repository is organised as follows:
