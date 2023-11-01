@@ -40,7 +40,6 @@ pip install torch-geometric==2.1.0
 ```
 
 ## Running
-At each directory, you can use the following command to obtain the results of our paper.
 
 ```sh
 CUDA_VISIBLE_DEVICES=$GPU_DEVICE python main.py \
