@@ -4,7 +4,7 @@
 We provide the PyTorch implementation for DPM-SNC framework here. The repository is organised as follows:
 
 ```python
-|-- {transductive-node-classification, transductive-node-classification-hetero, inductive-node-classification, graph-algorithm-reasoning} # DPM-GSP for supervised node classification, semi-supervised node classification, and reasoning tasks
+|-- {transductive-node-classification, inductive-node-classification, graph-algorithm-reasoning} # DPM-GSP for supervised node classification, semi-supervised node classification, and reasoning tasks
     |-- config/ # configurations
     |-- parsers/ # the argument parser
     |-- models/ # model definition
